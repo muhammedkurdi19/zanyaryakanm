@@ -1,0 +1,84 @@
+ body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(background-rainbow-colors-ogni-lights-fon-abstract-neon-neon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+}
+
+.title{
+    margin: 100px;
+    color: #fff;
+}
+.title h1{
+    font-size: 33px;
+    line-height: 10px;
+}
+
+.title h2{
+    font-size: 16px;
+    word-spacing: 1px;
+    animation: h2 4s infinite;
+}
+
+@keyframes h2{
+    50% {word-spacing: 6px;}
+}
+
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px  solid #4caf50;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    transition: 0.4s ease;
+}
+.form-control:hover{
+    box-shadow: 0 3px 10px yellow;
+}
+
+input{
+    height: 45px;
+}
+
+.form-submit{
+    background-color: #0000009f;
+    border-color: transparent;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+
+.form-submit:hover{
+    color: #4caf50;
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}
+.back{
+    background-color: #0000009f;
+    border-color: transparent;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+
+.back:hover{
+    color: #4caf50;
+    box-shadow: 0 0 10px yellow;
+    
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpaper1.jpg);
+    background-repeat: no-repeat;
+    font-weight: century Gothic;
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    height: 470px;
+    width: 30%;
+    background: #000000d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 20px;
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    background: black;
+    background: url(male-face-avatar-logo.jpg)no-repeat;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h1{
+    color: white;
+    margin-top: 50px;
+    border-bottom: 1px solid #4caf50;
+}
+
+.container p{
+    color: white;
+    margin-top: 60px;
+    font-size: large;
+}
+
+.btn{
+    background: no-repeat;
+    outline: none;
+    border: 1px solid #4caf50;
+    color: white;
+    width: 50%;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 90px;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background: black;
+    color: #4caf50;
+    box-shadow: 0 0 10px yellow;
+}
